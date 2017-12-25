@@ -20,7 +20,7 @@ php composer.phar require "bogdik/yii2-chosen" "*"
 or add
 
 ```json
-"nex/yii2-chosen" : "*"
+"bogdik/yii2-chosen" : "*"
 ```
 
 to the `require` section of your application's `composer.json` file.
@@ -73,14 +73,14 @@ use bogdik\chosen\Chosen;
 To override default placeholder strings you can add translated messages for `Select an option` (single select) and `Select some options` (multiple select) to your application message file. By default widget will use 'app' category to translate this strings, but you can set your own category by changing `translateCategory` option in widget configuration. For example, you can write this in application config file:
 ```
 <?php
-\Yii::$container->set('nex\chosen\Chosen', [
+\Yii::$container->set('bogdik\chosen\Chosen', [
     'translateCategory' => 'my-app',
 ]);
 ```
 Also you can override placeholder text when invoking widget (it can be useful for selects with small width):
 ```
 <?php
-use nex\chosen\Chosen;
+use bogdik\chosen\Chosen;
 ?>
 <?= Chosen::widget([
     'name' => 'ChosenTest',
