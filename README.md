@@ -1,4 +1,4 @@
-Chosen + Bootstrap 3 + Yii2
+Chosen + Bootstrap 4 + Yii2
 ===========================
 
 Credits
@@ -14,7 +14,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require "nex/yii2-chosen" "*"
+php composer.phar require "bogdik/yii2-chosen" "*"
 ```
 
 or add
@@ -31,7 +31,7 @@ Usage
 
 ```
 <?php
-use nex\chosen\Chosen;
+use bogdik\chosen\Chosen;
 ?>
 
 <?= Chosen::widget([
@@ -55,7 +55,7 @@ use nex\chosen\Chosen;
 
 ```
 <?php
-use nex\chosen\Chosen;
+use bogdik\chosen\Chosen;
 ?>
 <?= Chosen::widget([
     'name' => 'ChosenTest',

@@ -4,7 +4,7 @@
  * @link https://github.com/RomeroMsk
  * @version 1.0.1
  */
-namespace nex\chosen;
+namespace bogdik\chosen;
 
 use yii\web\AssetBundle;
 
