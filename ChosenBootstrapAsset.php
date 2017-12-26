@@ -25,6 +25,6 @@ class ChosenBootstrapAsset extends AssetBundle
 
     public $depends = [
         'yii\bootstrap\BootstrapAsset',
-        'nex\chosen\ChosenAsset',
+        'bogdik\chosen\ChosenAsset',
     ];
 }
