@@ -4,7 +4,7 @@
  * @link https://github.com/ezoterik
  * @version 1.0.0
  */
-namespace nex\chosen;
+namespace bogdik\chosen;
 
 use yii\web\AssetBundle;
 
