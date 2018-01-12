@@ -1,4 +1,4 @@
-Chosen + Bootstrap 4 + Yii2
+Chosen + Bootstrap 3 + Yii2
 ===========================
 
 Credits

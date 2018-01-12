@@ -4,7 +4,7 @@
  * @link https://github.com/ezoterik
  * @version 1.0.0
  */
-namespace bogdik\chosen;
+namespace nex\chosen;
 
 use yii\web\AssetBundle;
 
@@ -17,14 +17,14 @@ use yii\web\AssetBundle;
  */
 class ChosenBootstrapAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/bootstrap4c-chosen';
+    public $sourcePath = '@bower/chosen-bootstrap';
 
     public $css = [
-        'dist/css/component-chosen.min.css',
+        'chosen.bootstrap.css',
     ];
 
     public $depends = [
-        'yii\bootstrap\BootstrapAsset',
+        //'yii\bootstrap\BootstrapAsset',
         'bogdik\chosen\ChosenAsset',
     ];
 }
