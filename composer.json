@@ -2,7 +2,7 @@
     "name": "bogdik/yii2-chosen",
     "type": "yii2-extension",
     "description": "Bootstrap Chosen widget for Yii2",
-    "keywords": ["yii2", "extension", "widget", "chosen", "bootstrap", "bootstrap 4"],
+    "keywords": ["yii2", "extension", "widget", "chosen", "bootstrap", "bootstrap 3"],
     "homepage": "https://github.com/RomeroMsk/yii2-chosen",
     "license": "BSD 3-Clause",
     "authors": [
@@ -15,7 +15,6 @@
     "require": {
         "yiisoft/yii2": "*",
         "bower-asset/chosen": ">=1.8.2",
-        "bower-asset/bootstrap4c-chosen": "1.0.*"
 
     },
     "autoload": {
