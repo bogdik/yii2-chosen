@@ -14,7 +14,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/chosen": ">=1.8.2"
+        "bower-asset/chosen-bootstrap": "1.1.*"
 
     },
     "autoload": {
