@@ -64,6 +64,10 @@ class Chosen extends InputWidget
     public $clientOptions = [];
 
     /**
+     * @var array disabled options
+     */
+    public $disablesArray = [];
+    /**
      * @var array event handlers for Chosen plugin
      * @see http://harvesthq.github.io/chosen/options.html#triggered-events
      */
@@ -99,6 +103,12 @@ class Chosen extends InputWidget
      */
     public function run()
     {
+        if( $this->disablesArray){
+            $this->options['options']=[];
+            foreach ($this->disablesArray as $item){
+                $this->options['options'][$item]=['disabled'=>true];
+            }
+        }
         if ($this->hasModel()) {
             echo Html::activeListBox($this->model, $this->attribute, $this->items, $this->options);
         } else {
