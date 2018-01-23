@@ -45,6 +45,7 @@ use bogdik\chosen\Chosen;
     Chosen::className(), [
         'items' => [1 => 'First item', 2 => 'Second item', 3 => 'Third item'],
         'disableSearch' => 5, // Search input will be disabled while there are fewer than 5 items
+	'disablesArray' => [1,2],
         'clientOptions' => [
             'search_contains' => true,
             'single_backstroke_delete' => false,
