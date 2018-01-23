@@ -63,6 +63,7 @@ use bogdik\chosen\Chosen;
     'items' => [1 => 'First item', 2 => 'Second item', 3 => 'Third item'],
     'allowDeselect' => false,
     'disableSearch' => true, // Search input will be disabled
+    'disablesArray' => [1,2],
     'clientOptions' => [
         'search_contains' => true,
         'max_selected_options' => 2,
